@@ -1,0 +1,91 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navegación */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+nav a {
+    text-decoration: none;
+    color: #73ff00;
+    font-weight: bold;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    color: #73ff00;
+}
+
+/* Imagen con efecto hover */
+img {
+    border-radius: 20px;
+    margin-bottom: 20px;
+    max-width: 90%;
+    height: auto;
+}
+
+/* Secciones */
+section {
+    background: #8cff8c7e;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgb(0, 252, 13);
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th, td {
+    border: 1px solid #000000;
+    padding: 10px;
+}
+
+/* Formulario */
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid  rgb(0, 252, 13);
+    border-radius: 5px;
+}
+button {
+    background-color: rgb(0, 252, 13);
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #000000;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+}
+footer a {
+    color: rgb(0, 252, 13);
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
